@@ -3,9 +3,9 @@ def unsafe?(speed)
   if speed < 40
     return "true"
   elsif speed > 60
-    retuen "true"
+    return "true"
   else
-    retuen "false"
+    return "false"
 end
 
 
